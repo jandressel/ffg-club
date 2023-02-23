@@ -1,0 +1,141 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "FFG-Club-.##",
+ "creation": "2023-02-19 20:04:24.133372",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "basic_info_section",
+  "location",
+  "address",
+  "map",
+  "email",
+  "phone",
+  "column_break_mag8z",
+  "image",
+  "picture",
+  "available_equipment_section",
+  "equipment",
+  "available_classes_section",
+  "classes",
+  "locker_room_section",
+  "lockers",
+  "city"
+ ],
+ "fields": [
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Location",
+   "reqd": 1
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
+  },
+  {
+   "fieldname": "picture",
+   "fieldtype": "Image",
+   "label": "Picture",
+   "options": "Image"
+  },
+  {
+   "fieldname": "lockers",
+   "fieldtype": "Table",
+   "label": "Lockers",
+   "options": "Locker"
+  },
+  {
+   "fieldname": "equipment",
+   "fieldtype": "Table",
+   "label": "Equipment",
+   "options": "Equipment"
+  },
+  {
+   "fieldname": "classes",
+   "fieldtype": "Table",
+   "label": "Classes",
+   "options": "Classes"
+  },
+  {
+   "fieldname": "basic_info_section",
+   "fieldtype": "Section Break",
+   "label": "Basic Info"
+  },
+  {
+   "fieldname": "column_break_mag8z",
+   "fieldtype": "Column Break"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "locker_room_section",
+   "fieldtype": "Section Break",
+   "label": "Locker Room"
+  },
+  {
+   "fieldname": "available_equipment_section",
+   "fieldtype": "Section Break",
+   "label": "Available Equipment"
+  },
+  {
+   "fieldname": "available_classes_section",
+   "fieldtype": "Section Break",
+   "label": "Available Classes"
+  },
+  {
+   "fieldname": "map",
+   "fieldtype": "Geolocation",
+   "label": "Map"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-02-22 10:26:26.404678",
+ "modified_by": "Administrator",
+ "module": "FFG-CLUB",
+ "name": "Club Location",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
