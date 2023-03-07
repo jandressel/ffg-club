@@ -5,6 +5,7 @@ def get_data():
 		{
 			"module_name": "FFG Club",
 			"type": "module",
-			"label": _("FFG Club")
+			"label": _("FFG Club"),
+			"icon": "public/assets/img/FFG-Club_logo.svg"
 		}
 	]

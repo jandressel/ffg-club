@@ -3,6 +3,7 @@ from . import __version__ as app_version
 app_name = "ffg"
 app_title = "FFG Club"
 app_publisher = "Dressel"
+app_icon = "FFG-Club_logo.svg"
 app_description = "Frappe Framework Gym Club"
 app_email = "jan@dressel.cloud"
 app_license = "MIT"
@@ -35,14 +36,15 @@ app_license = "MIT"
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
 # Home Pages
-# ----------
+# --------
 
 # application home page (will override Website Settings)
-# home_page = "login"
+home_page = "home"
+
 
 # website user home page (by Role)
 # role_home_page = {
-#	"Role": "home_page"
+# 	"Role": "home_page"
 # }
 
 # Generators

@@ -11,7 +11,12 @@
   "date",
   "rating_for",
   "rating_by",
-  "description"
+  "stars",
+  "column_break_klxm8",
+  "trainer_image",
+  "picture",
+  "description",
+  "amended_from"
  ],
  "fields": [
   {
@@ -27,19 +32,50 @@
   },
   {
    "fieldname": "rating_by",
-   "fieldtype": "Link",
-   "label": "Rating By",
-   "options": "Members"
+   "fieldtype": "Data",
+   "label": "Rating By"
   },
   {
    "fieldname": "description",
-   "fieldtype": "Small Text",
+   "fieldtype": "Text Editor",
    "label": "Description"
+  },
+  {
+   "fieldname": "stars",
+   "fieldtype": "Select",
+   "label": "Stars",
+   "options": "*\n**\n***\n****"
+  },
+  {
+   "fieldname": "column_break_klxm8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "trainer_image",
+   "fieldtype": "Attach Image",
+   "label": "Trainer Image"
+  },
+  {
+   "fieldname": "picture",
+   "fieldtype": "Image",
+   "label": "Picture",
+   "options": "trainer_image\n"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Rating",
+   "print_hide": 1,
+   "read_only": 1
   }
  ],
+ "image_field": "trainer_image",
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2023-02-20 02:17:30.669297",
+ "modified": "2023-02-28 10:28:41.831524",
  "modified_by": "Administrator",
  "module": "FFG-CLUB",
  "name": "Rating",

@@ -25,7 +25,8 @@
   "auto_renew",
   "signed_membership_form_section",
   "sign_up_form",
-  "signed_form"
+  "signed_form",
+  "monthly_fee"
  ],
  "fields": [
   {
@@ -125,11 +126,16 @@
    "fieldtype": "Image",
    "label": "Signed Form",
    "options": "sign_up_form"
+  },
+  {
+   "fieldname": "monthly_fee",
+   "fieldtype": "Currency",
+   "label": "Monthly Fee"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-02-20 02:11:31.666070",
+ "modified": "2023-02-23 09:39:17.349554",
  "modified_by": "Administrator",
  "module": "FFG-CLUB",
  "name": "Members",

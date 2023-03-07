@@ -19,7 +19,8 @@
   "qualifications_section",
   "proficiency",
   "certificate",
-  "hourly_rate"
+  "hourly_rate",
+  "shift"
  ],
  "fields": [
   {
@@ -85,11 +86,17 @@
    "fieldname": "hourly_rate",
    "fieldtype": "Currency",
    "label": "Hourly Rate"
+  },
+  {
+   "fieldname": "shift",
+   "fieldtype": "Select",
+   "label": "Shift",
+   "options": "AM\nPM"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-02-20 01:25:03.969890",
+ "modified": "2023-03-01 10:12:59.902173",
  "modified_by": "Administrator",
  "module": "FFG-CLUB",
  "name": "Trainer",

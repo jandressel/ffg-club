@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "autoname": "format:{trainer_name}-{YY}-{MM}-{DD}-{booking_hour}",
+ "creation": "2023-03-01 09:53:59.285303",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "trainer_name",
+  "booking_date_time",
+  "booked_by",
+  "program_description",
+  "booking_hour"
+ ],
+ "fields": [
+  {
+   "fieldname": "trainer_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Trainer Name",
+   "options": "Trainer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "booking_date_time",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Booking Date ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "booked_by",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Booked By",
+   "options": "Members",
+   "reqd": 1
+  },
+  {
+   "fieldname": "program_description",
+   "fieldtype": "Small Text",
+   "label": "Program Description"
+  },
+  {
+   "fieldname": "booking_hour",
+   "fieldtype": "Select",
+   "label": "Booking Hour",
+   "options": "1\n2\n3\n4\n5\n6\n7\n8",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-03-01 10:23:03.727740",
+ "modified_by": "Administrator",
+ "module": "FFG-CLUB",
+ "name": "Schedule",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

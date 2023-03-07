@@ -39,13 +39,13 @@
    "fieldname": "picture",
    "fieldtype": "Image",
    "label": "Picture",
-   "options": "Image"
+   "options": "image"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-02-19 19:54:05.962152",
+ "modified": "2023-02-23 05:07:11.334659",
  "modified_by": "Administrator",
  "module": "FFG-CLUB",
  "name": "Equipment",

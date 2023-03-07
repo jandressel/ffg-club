@@ -57,7 +57,7 @@
    "fieldname": "picture",
    "fieldtype": "Image",
    "label": "Picture",
-   "options": "Image"
+   "options": "image"
   },
   {
    "fieldname": "lockers",
@@ -115,7 +115,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-02-22 10:26:26.404678",
+ "modified": "2023-03-01 10:31:29.130249",
  "modified_by": "Administrator",
  "module": "FFG-CLUB",
  "name": "Club Location",
@@ -131,6 +131,16 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Guest",
    "share": 1,
    "write": 1
   }
